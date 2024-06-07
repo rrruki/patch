@@ -6,6 +6,7 @@ from anomalib.engine import Engine
 if __name__ == '__main__':
     # Initialize the datamodule, model and engine
     datamodule = MVTec()
+    data = 23
     print(datamodule.root)
     model = Patchcore()
     engine = Engine()
